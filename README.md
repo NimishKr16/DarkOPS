@@ -18,14 +18,35 @@ Our solution is designed to identify and combat dark patterns on e-commerce plat
 
 ### Features
 
-- **User Interface Analysis:** Our solution examines the user interface of e-commerce platforms, identifying elements that may lead to deceptive practices.
-  
-- **User Interaction Tracking:** By monitoring user interactions, our application determines the presence and impact of dark patterns on user behavior.
-  
-- **Scalability Detection:** The solution is equipped to assess the scale at which dark patterns are implemented, offering a comprehensive view of their prevalence.
+1. **User Interface Deception Detection:**
+   - Our solution adeptly identifies deceptive interfaces, ensuring users aren't misled during interactions.
 
-## Getting Started
+2. **Subscription Trickery Algorithm:**
+   - Employing a sophisticated algorithm, we uncover websites using misleading strategies for subscriptions and charges.
 
-### Prerequisites
+3. **Accurate Product Information Analysis:**
+   - Our system ensures accurate product details, preventing omissions, inaccuracies, or intentional disguises.
+
+4. **Forced Account Creation Identification:**
+   - Detect websites unnecessarily requiring user registration, streamlining the checkout process.
+
+5. **Evaluation of Limited User Choice:**
+   - We assess how e-commerce sites limit choices, redirecting users towards specific goods or services.
+
+6. **Transparent Product Information System:**
+   - Our solution prevents crucial information from being omitted or disguised in product listings.
+
+7. **Fake Urgency and Scarcity Detection:**
+   - Intelligent detection of fake timers and stock indicators, preventing false urgency and scarcity.
+
+8. **Hidden Costs Identification:**
+   - Effectively identify undisclosed fees, taxes, or charges during the checkout process.
+
+9. **Dark Patterns in User Reviews Scrutiny:**
+   - Our solution scrutinizes user-generated content for signs of manipulated or fake reviews.
+
+10. **Data Transparency Compliance Assessment:**
+    - Robust algorithm to assess e-commerce platforms' compliance with data transparency regulations, flagging potential violations.
+
 
 
