@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "URL Fetcher",
+  "version": "1.0",
+  "description": "Fetches the current URL",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
