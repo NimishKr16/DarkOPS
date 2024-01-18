@@ -2,6 +2,6 @@
 
 ## /Fake Review Detection
 ## -> Contains all the necessary files including:
-## Trained RoBERTa model
-## Preprocessed Data and Observations
-## Model Metrics and Results
+## 1. Trained RoBERTa model
+## 2. Preprocessed Data and Observations
+## 3. Model Metrics and Results
