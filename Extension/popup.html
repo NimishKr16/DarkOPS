@@ -5,21 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>URL Fetcher</title>
     <style>
-      html{
+      html {
         border-radius: 25px;
       }
-      *{
+
+      * {
         background-color: black;
         color: white;
       }
+
       body {
         font-family: "Arial", sans-serif;
         margin: 10px;
       }
-      h1{
+
+      h1 {
         text-align: center;
       }
+
       button {
+        margin-right: 10px;
+        margin-bottom: 10px;
         padding: 10px;
         background-color: #4caf50;
         color: white;
@@ -32,11 +38,20 @@
       button:hover {
         background-color: #488d4c;
       }
+
+      #resultContainer {
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid #4caf50;
+        border-radius: 5px;
+      }
     </style>
     <script src="script.js"></script>
   </head>
   <body>
     <h1>Validate Product</h1>
-    <button id="fetchButton">Check Product</button>
+    <button id="fetchButton">Scan Webpage</button>
+    <button id="fetchButton">Scan Product</button>
+    <div id="resultContainer"></div>
   </body>
 </html>
