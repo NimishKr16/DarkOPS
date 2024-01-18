@@ -27,7 +27,6 @@ We leveraged the RoBERTa model, an advanced version of BERT, to train our fake r
 
 ## Repository Structure
 
-- `src/`: Contains the source code for the RoBERTa model and related scripts.
 - `data/`: Includes the dataset obtained from OSF.
 - `results/`: Holds the results of the model, such as performance metrics and classification reports.
 - `notebooks/`: Jupyter notebooks used for data exploration, model training, and evaluation.
@@ -38,8 +37,7 @@ To get started with this project, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/Fake-Review-Detection.git`
 2. Navigate to the project directory: `cd Fake-Review-Detection`
-3. Install the required dependencies: `pip install -r requirements.txt`
-4. Explore the Jupyter notebooks in the `notebooks/` directory to understand the data and model training process.
+3. Explore the Jupyter notebooks in the `notebooks/` directory to understand the data and model training process.
 
 ## Results and Evaluation
 
