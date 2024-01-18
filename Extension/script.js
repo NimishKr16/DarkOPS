@@ -13,11 +13,17 @@ document.addEventListener("DOMContentLoaded", function () {
         .then((response) => response.json())
         .then((result) => {
           // Display the result in the extension
-          alert("Result from Python: \n" + result.message);
+          displayURLResult(result.message); 
         })
         .catch((error) => {
           console.error("Error:", error);
         });
     });
   });
+
+  function displayURLResult(message) {
+    // Update the content of the resultContainer
+    var resultContainer = document.getElementById("resultContainer");
+    resultContainer.innerHTML = "<p>Result from Python:</p><p>" + message + "</p>";
+  }
 });
