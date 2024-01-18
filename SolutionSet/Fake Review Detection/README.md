@@ -16,13 +16,13 @@ We leveraged the RoBERTa model, an advanced version of BERT, to train our fake r
 
 #### Classification Report:
 
-          precision    recall  f1-score   support
-      CG       0.95      0.91      0.93      4010
-      OR       0.92      0.96      0.94      4077
+            Precision   Recall  F1-Score  Support
+CG           0.95        0.91     0.93     4010
+OR           0.92        0.96     0.94     4077
+Accuracy                  0.94              8087
+Macro Avg    0.94        0.94     0.94     8087
+Weighted Avg 0.94        0.94     0.94     8087
 
-accuracy                           0.94      8087
-macro avg     0.94      0.94       0.94      8087
-weighted avg  0.94      0.94       0.94      8087
 
 ## Repository Structure
 
