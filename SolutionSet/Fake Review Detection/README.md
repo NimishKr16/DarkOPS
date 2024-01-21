@@ -2,11 +2,11 @@
 
 ## Overview
 
-This repository contains the code and resources for a Fake Review Detection project. The primary objective of this project is to identify fake reviews using a RoBERTa (Robustly optimized BERT approach) model, which has proven to be highly effective in natural language processing tasks.
+This repository contains the code and resources for a Fake Review Detection project. The primary objective of this project is to identify fake reviews using a RoBERTa (Robustly optimized BERT approach) based model, which has proven to be highly effective in natural language processing tasks.
 
 ## Model and Training
 
-We leveraged the RoBERTa model, an advanced version of BERT, to train our fake review detection system. The model was trained on a dataset obtained from the Open Science Framework (OSF). The training process resulted in impressive performance metrics, showcasing the model's capability in discerning between genuine and fake reviews.
+We leveraged the RoBERTa based model, an advanced version of BERT, to train our fake review detection system. The model was trained on a dataset obtained from the Open Science Framework (OSF). The training process resulted in impressive performance metrics, showcasing the model's capability in discerning between genuine and fake reviews.
 
 ### Performance Metrics
 
