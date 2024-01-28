@@ -43,3 +43,8 @@ button:hover {
     padding: 2%;
     gap: 10px;
 }
+
+#displayedImage{
+  max-width: 5px;
+  height: auto;
+}
