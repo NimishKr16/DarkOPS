@@ -18,7 +18,7 @@ To Clone the repository: `git clone https://github.com/NimishKr16/CascadingCoder
 Our solution is designed to identify and combat dark patterns on e-commerce platforms. We have developed an innovative application that analyzes the user interface and user interactions to detect deceptive design practices. The solution provides insights into the types and scale of dark patterns employed, enabling users to make informed decisions.
 
 ### Features
-## Note: The Extension-Designing Branch has the required files for using and testing the extension. The development is still underway.
+## Note: The `/Extension` directory has all the required files for using and testing the extension. The development is still underway.
 
 1. **User Interface Deception Detection:**
    - Our solution adeptly identifies deceptive interfaces, ensuring users aren't misled during interactions.
