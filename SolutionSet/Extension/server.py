@@ -8,6 +8,8 @@ import pandas as pd
 # Importing custom functions
 from function.myntraScrape import get_reviews, get_tags
 from function.reviewCheck import aichecker
+from function.screenshot import get_screenshot
+from function.rflow import prediction
 
 
 # App initiation
@@ -118,6 +120,24 @@ def check_all():
 
     return jsonify({"message1": reviews_scan, "message2": csv_op})
 
+
+# -------------------------- GET UI ELEMENTS FUNCTION ------------------------- #
+
+@app.route("/uiscan", methods=["POST"])
+def uiscan():
+    # Perform your UI scanning logic and get the image path
+    data = request.get_json()
+    taburl = data.get("url", "URL not found")
+    get_screenshot(url = taburl)
+    prediction()
+    image_path = "prediction.jpg"
+
+    # Return the image path in the response
+    return jsonify({
+        'message1': 'UI Scan successful',
+        'message2': 'UI Elements found!',
+        'imagePath': image_path
+    })
 
 # ------------------------------- MAIN FUNCTION ------------------------------ #
 if __name__ == "__main__":
