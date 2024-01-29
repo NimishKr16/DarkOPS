@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <title>URL Fetcher</title> -->
-    <link rel="stylesheet" href="popup.css" />
-  </head>
-  <body>
-    <h1>DETECT DARK PATTERNS</h1>
-    <div id="btns">
-      <button id="maliciousScan">Web Scan</button><br /><br />
-      <button id="reviewScan">Product Scan</button><br /><br /><br />
-      <button id="UIScan">UI Element Scan</button><br /><br /><br />
-    </div>
-    <div id="result">
-      <div id="maliciousScanDiv"></div>
-      <br />
-      <div id="reviewResultDiv"></div>
-      <br />
-      <div id="imageContainer"></div>
-      <img id="displayedImage" src="prediction.jpg" alt="Displayed Image">
-    </div>
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <title>URL Fetcher</title> -->
+  <link rel="stylesheet" href="popup.css" />
+  <style>
+    #feedbackFormContainer {
+      display: none;
+    }
+    img{
+      width: 500px;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>DETECT DARK PATTERNS</h1>
+<div id="btns">
+  <button id="maliciousScan">Web Scan</button><br /><br />
+  <button id="reviewScan">Product Scan</button><br /><br /><br />
+  <button id="UIScan">UI Element Scan</button><br /><br /><br />
+  
+</div>
+<div id="result">
+  <div id="maliciousScanDiv"></div>
+  <br />
+  <div id="reviewResultDiv"></div>
+  <br />
+  <div id="imageContainer"></div>
+  <!-- <img src="prediction.jpg" alt="Displayed Image" width="200" height="200"> -->
+  
+</div>
+<!-- Embedded Google Form Container -->
+<div id="feedbackFormContainer">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdScO8EcN7lUN8dvAVwwUxQAONO8_okkU0b595m3dAYAxIAPg/viewform?embedded=true" width="400" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<!-- Link to toggle the visibility of the embedded Google Form -->
+<a href="feedback.html" id="feedbackLink">Feedback</a>
+
+<script src="script.js"></script>
+</body>
 </html>
