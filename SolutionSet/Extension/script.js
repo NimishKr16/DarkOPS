@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then((response) => response.json())
         .then((result) => {
             // Assuming result.path contains the path to the "prediction.jpg" file
-            displayImage(result.path);
+            displayImage(result.imagePath);
         })
         .catch((error) => {
             console.error("Error:", error);
