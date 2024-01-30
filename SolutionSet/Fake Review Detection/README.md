@@ -10,7 +10,7 @@ We leveraged the RoBERTa model, an advanced version of BERT, to train our fake r
 
 ### Performance Metrics
 
-- **Accuracy:** 93.52%
+- **Accuracy:** 94.00%
 - **Precision:** 91.75%
 - **Recall:** 95.76%
 
