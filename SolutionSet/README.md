@@ -17,5 +17,6 @@
 ### -> Contains all files for:
 ### 1. Random Forest Classifier Model to Detect Malicious URLS
 ### 2. Dataset used for Training & Testing
+### 3. MOdel Metrics
 
 ## Compatible with Opera, Microsoft Edge and Mozilla Firefox as well.
