@@ -5,6 +5,6 @@
 
 ### Performance Metrics
 
-- **Accuracy:** 96.2%
-- **Precision:** 96.0%
+- **Accuracy:** 96.20%
+- **Precision:** 96.00%
 - **Recall:** 93.00%
