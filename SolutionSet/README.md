@@ -13,4 +13,9 @@
 ### 2. Load Unpacked the "Extension" folder in chrome://extensions
 ### 3. Run server.py and use the extension!
 
-## Compatible with Opera and Microsoft Edge as well.
+## `/Malicious URL Detection`
+### -> Contains all files for:
+### 1. Random Forest Classifier Model to Detect Malicious URLS
+### 2. Dataset used for Training & Testing
+
+## Compatible with Opera, Microsoft Edge and Mozilla Firefox as well.
