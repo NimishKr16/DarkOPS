@@ -1,4 +1,5 @@
-# Dark Patterns Buster Hackathon - Cascading Coders
+# Dark Patterns Buster Hackathon
+# Cascading Coders
 
 ## Overview
 
