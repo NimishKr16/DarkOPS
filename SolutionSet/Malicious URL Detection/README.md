@@ -1,5 +1,6 @@
 # Detects Malicious URLs 
 ## NLP by Random Forest Classifier Algorithm.
+### to detect malicious URLs against benign(safe) URLs
 
 ## [Dataset Source](https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset)
 
