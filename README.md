@@ -1,6 +1,6 @@
-# <font color="blue">DΛRK ꝊPS</font>
-# Dark Patterns Buster Hackathon
-# Cascading Coders
+# DΛRK ꝊPS
+## By: Cascading Coders
+## For:Dark Patterns Buster Hackathon
 
 ## Overview
 
