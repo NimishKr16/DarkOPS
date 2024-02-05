@@ -1,3 +1,5 @@
+![Image from repository](SolutionSet/logo.png)
+
 # DΛRK ꝊPS
 ## By: Cascading Coders
 ## For:Dark Patterns Buster Hackathon
