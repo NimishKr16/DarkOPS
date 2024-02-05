@@ -2,7 +2,7 @@
 
 # DΛRK ꝊPS
 ## By: Cascading Coders
-## For :Dark Patterns Buster Hackathon
+## For: Dark Patterns Buster Hackathon
 
 ## Overview
 
