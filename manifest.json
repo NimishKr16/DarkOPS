@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "DarkOPS",
+  "version": "1.0.1",
+  "description": "Bust Dark Patterns",
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "icons/darkops128.png",
+    "48": "icons/darkops128.png",
+    "128": "icons/darkops128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Review Check"
+  }
+  
+}

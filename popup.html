@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css" />
+  <style>
+    
+
+
+  </style>
+</head>
+<body>
+  <!-- 𐌃𐌀𐌓𐌊 Ꝋ𐌐𐌔 Ⓞקѕ -->
+  <!-- DΛRK ӨPS -->
+
+<div class="icon">
+  <img id='myicon' src="icons/darkops128.png" alt="Couldn't Fetch Logo">
+</div>
+<h1>DΛRK ꝊPS</h1>
+
+<button id = "scan">SCAN</button>
+
+<!-- IMAGE URL INPUT FORM -->
+
+<div class="url-container">
+  <form class="form">
+    <p style="color: cyan; font-weight: bolder;">AI-Image Detector</p>
+    <input type="text" id="imageUrl" class="form__field" placeholder="Enter Image URL">
+    <button type="submit" id = "aichkbtn" class="btn btn--primary">Check</button>
+  </form>
+
+<!-- RESULT DISPLAY DIV -->
+
+<div id="result">
+  <div id="AIresult" style="padding-left: 240px;"></div>
+  <br>
+  <div id="maliciousScanDiv"></div>
+  <br />
+  <div id="reviewResultDiv"></div>
+  <br />
+  <div style= "padding-left: 245px;" id="UIelementDiv"></div>
+  
+</div>
+
+<div id="feedbackFormContainer">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdScO8EcN7lUN8dvAVwwUxQAONO8_okkU0b595m3dAYAxIAPg/viewform?embedded=true" width="400" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<a style="padding-right: 160px; color: aqua;" href="feedback.html" id="feedbackLink">Feedback</a>
+
+<script src="script.js"></script>
+</body>
+</html>
