@@ -21,7 +21,7 @@ We are Cascading Coders, a team of passionate and creative individuals dedicated
 Our solution is designed to identify and combat dark patterns on e-commerce platforms. We have developed an innovative application that analyzes the user interface and user interactions to detect deceptive design practices. The solution provides insights into the types and scale of dark patterns employed, enabling users to make informed decisions.
 
 
-## Note: The `/Extension` directory has all the required files for using and testing the extension. The development is still underway.
+## Note: The `DarkOPS` (Parent directory) has all the required files for using and testing the extension. The development is still underway.
 ## Features
 1. **User Interface Deception Detection:**
    - Our solution adeptly identifies deceptive interfaces, ensuring users aren't misled during interactions.
