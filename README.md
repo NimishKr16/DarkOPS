@@ -4,17 +4,15 @@
 ## By: Cascading Coders
 ## For: Dark Patterns Buster Hackathon
 
-## Overview
+To Clone the repository: `git clone https://github.com/NimishKr16/DarkOPS.git`
 
-Dark Patterns Buster Hackathon, initiated by Cascading Coders, is a pioneering endeavor aimed at empowering students to combat deceptive design practices prevalent in the digital world. Our mission is to cultivate a culture of ethical innovation and problem-solving, addressing the critical issues encountered in our online experiences.
+## Overview
 
 This GitHub repository houses the solution developed by Cascading Coders for the problem statement presented during the Dark Patterns Buster Hackathon. The challenge involves designing and prototyping innovative app or software-based solutions capable of detecting the use, type, and scale of dark patterns on e-commerce platforms.
 
 ## Team - Cascading Coders
 
 We are Cascading Coders, a team of passionate and creative individuals dedicated to making a positive impact in the digital space. Our team is driven by the mission to create ethical solutions that contribute to a safer and more transparent online environment.
-
-To Clone the repository: `git clone https://github.com/NimishKr16/CascadingCoders_DPBH23.git`
 
 ## Solution
 
