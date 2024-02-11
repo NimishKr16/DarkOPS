@@ -5,7 +5,8 @@ from PIL import ImageDraw
 from io import BytesIO
 import pytesseract
 
-
+import os
+os.environ["TESSERACT_PATH"] = "/path/to/tesseract/installation/directory"
 
 def capture_screenshot_with_message(url, message):
     driver = webdriver.Chrome()	
