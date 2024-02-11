@@ -1,4 +1,4 @@
-![Image from repository](SolutionSet/logo.png)
+![Image from repository](logo.png)
 
 # DΛRK ꝊPS
 ## By: Cascading Coders
